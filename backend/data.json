@@ -1,0 +1,1400 @@
+{
+  "subjects": [
+    {
+      "id": "chinese",
+      "name": "语文",
+      "code": "1",
+      "leaderId": "101",
+      "questionCount": 5
+    },
+    {
+      "id": "math",
+      "name": "数学",
+      "code": "2",
+      "leaderId": "201",
+      "questionCount": 4
+    },
+    {
+      "id": "english",
+      "name": "英语",
+      "code": "3",
+      "leaderId": "301",
+      "questionCount": 3
+    }
+  ],
+  "questions": [
+    {
+      "id": "10101",
+      "subjectId": "chinese",
+      "subjectCode": "1",
+      "questionIndex": 1,
+      "name": "语文第1题",
+      "maxScore": 10,
+      "scoreOptions": [
+        0,
+        5,
+        10
+      ],
+      "graderCount": 2,
+      "rounds": 2
+    },
+    {
+      "id": "10102",
+      "subjectId": "chinese",
+      "subjectCode": "1",
+      "questionIndex": 2,
+      "name": "语文第2题",
+      "maxScore": 10,
+      "scoreOptions": [
+        0,
+        5,
+        10
+      ],
+      "graderCount": 2,
+      "rounds": 1
+    },
+    {
+      "id": "10103",
+      "subjectId": "chinese",
+      "subjectCode": "1",
+      "questionIndex": 3,
+      "name": "语文第3题",
+      "maxScore": 10,
+      "scoreOptions": [
+        0,
+        5,
+        10
+      ],
+      "graderCount": 2,
+      "rounds": 1
+    },
+    {
+      "id": "10104",
+      "subjectId": "chinese",
+      "subjectCode": "1",
+      "questionIndex": 4,
+      "name": "语文第4题",
+      "maxScore": 10,
+      "scoreOptions": [
+        0,
+        5,
+        10
+      ],
+      "graderCount": 2,
+      "rounds": 1
+    },
+    {
+      "id": "10105",
+      "subjectId": "chinese",
+      "subjectCode": "1",
+      "questionIndex": 5,
+      "name": "语文第5题",
+      "maxScore": 60,
+      "scoreOptions": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60
+      ],
+      "graderCount": 2,
+      "rounds": 2
+    },
+    {
+      "id": "20101",
+      "subjectId": "math",
+      "subjectCode": "2",
+      "questionIndex": 1,
+      "name": "数学第1题",
+      "maxScore": 20,
+      "scoreOptions": [
+        0,
+        5,
+        10,
+        15,
+        20
+      ],
+      "graderCount": 2,
+      "rounds": 1
+    },
+    {
+      "id": "20102",
+      "subjectId": "math",
+      "subjectCode": "2",
+      "questionIndex": 2,
+      "name": "数学第2题",
+      "maxScore": 20,
+      "scoreOptions": [
+        0,
+        5,
+        10,
+        15,
+        20
+      ],
+      "graderCount": 2,
+      "rounds": 1
+    },
+    {
+      "id": "20103",
+      "subjectId": "math",
+      "subjectCode": "2",
+      "questionIndex": 3,
+      "name": "数学第3题",
+      "maxScore": 30,
+      "scoreOptions": [
+        0,
+        10,
+        20,
+        30
+      ],
+      "graderCount": 2,
+      "rounds": 1
+    },
+    {
+      "id": "20104",
+      "subjectId": "math",
+      "subjectCode": "2",
+      "questionIndex": 4,
+      "name": "数学第4题",
+      "maxScore": 30,
+      "scoreOptions": [
+        0,
+        10,
+        20,
+        30
+      ],
+      "graderCount": 2,
+      "rounds": 2
+    },
+    {
+      "id": "30101",
+      "subjectId": "english",
+      "subjectCode": "3",
+      "questionIndex": 1,
+      "name": "英语第1题",
+      "maxScore": 25,
+      "scoreOptions": [
+        0,
+        15,
+        25
+      ],
+      "graderCount": 2,
+      "rounds": 1
+    },
+    {
+      "id": "30102",
+      "subjectId": "english",
+      "subjectCode": "3",
+      "questionIndex": 2,
+      "name": "英语第2题",
+      "maxScore": 35,
+      "scoreOptions": [
+        0,
+        15,
+        25,
+        35
+      ],
+      "graderCount": 2,
+      "rounds": 1
+    },
+    {
+      "id": "30103",
+      "subjectId": "english",
+      "subjectCode": "3",
+      "questionIndex": 3,
+      "name": "英语第3题",
+      "maxScore": 40,
+      "scoreOptions": [
+        0,
+        10,
+        20,
+        30,
+        40
+      ],
+      "graderCount": 2,
+      "rounds": 2
+    }
+  ],
+  "users": [
+    {
+      "id": "001",
+      "password": "123",
+      "role": "admin",
+      "level": 0,
+      "name": "小高",
+      "idCard": "111222333344445555",
+      "phone": "66677778888",
+      "school": "广东技术师范大学"
+    },
+    {
+      "id": "002",
+      "password": "123",
+      "role": "admin",
+      "level": 0,
+      "name": "管理员2"
+    },
+    {
+      "id": "101",
+      "password": "123",
+      "role": "subject_leader",
+      "level": 1,
+      "subjectId": "chinese",
+      "name": "语文科组长"
+    },
+    {
+      "id": "201",
+      "password": "123",
+      "role": "subject_leader",
+      "level": 1,
+      "subjectId": "math",
+      "name": "数学科组长"
+    },
+    {
+      "id": "301",
+      "password": "123",
+      "role": "subject_leader",
+      "level": 1,
+      "subjectId": "english",
+      "name": "英语科组长"
+    },
+    {
+      "id": "10101",
+      "password": "123",
+      "role": "question_leader",
+      "level": 2,
+      "subjectId": "chinese",
+      "questionId": "10101",
+      "questionIndex": 1,
+      "name": "语文第1题题组长"
+    },
+    {
+      "id": "1010101",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "chinese",
+      "questionId": "10101",
+      "questionIndex": 1,
+      "questionLeaderId": "10101",
+      "name": "语文第1题评卷员1",
+      "idCard": "110101200001010011",
+      "phone": "13911112222",
+      "school": "第一中学"
+    },
+    {
+      "id": "1010102",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "chinese",
+      "questionId": "10101",
+      "questionIndex": 1,
+      "questionLeaderId": "10101",
+      "name": "语文第1题评卷员2"
+    },
+    {
+      "id": "10102",
+      "password": "123",
+      "role": "question_leader",
+      "level": 2,
+      "subjectId": "chinese",
+      "questionId": "10102",
+      "questionIndex": 2,
+      "name": "语文第2题题组长"
+    },
+    {
+      "id": "1010201",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "chinese",
+      "questionId": "10102",
+      "questionIndex": 2,
+      "questionLeaderId": "10102",
+      "name": "语文第2题评卷员1"
+    },
+    {
+      "id": "1010202",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "chinese",
+      "questionId": "10102",
+      "questionIndex": 2,
+      "questionLeaderId": "10102",
+      "name": "语文第2题评卷员2"
+    },
+    {
+      "id": "10103",
+      "password": "123",
+      "role": "question_leader",
+      "level": 2,
+      "subjectId": "chinese",
+      "questionId": "10103",
+      "questionIndex": 3,
+      "name": "语文第3题题组长"
+    },
+    {
+      "id": "1010301",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "chinese",
+      "questionId": "10103",
+      "questionIndex": 3,
+      "questionLeaderId": "10103",
+      "name": "语文第3题评卷员1"
+    },
+    {
+      "id": "1010302",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "chinese",
+      "questionId": "10103",
+      "questionIndex": 3,
+      "questionLeaderId": "10103",
+      "name": "语文第3题评卷员2"
+    },
+    {
+      "id": "10104",
+      "password": "123",
+      "role": "question_leader",
+      "level": 2,
+      "subjectId": "chinese",
+      "questionId": "10104",
+      "questionIndex": 4,
+      "name": "语文第4题题组长"
+    },
+    {
+      "id": "1010401",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "chinese",
+      "questionId": "10104",
+      "questionIndex": 4,
+      "questionLeaderId": "10104",
+      "name": "语文第4题评卷员1"
+    },
+    {
+      "id": "1010402",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "chinese",
+      "questionId": "10104",
+      "questionIndex": 4,
+      "questionLeaderId": "10104",
+      "name": "语文第4题评卷员2"
+    },
+    {
+      "id": "10105",
+      "password": "123",
+      "role": "question_leader",
+      "level": 2,
+      "subjectId": "chinese",
+      "questionId": "10105",
+      "questionIndex": 5,
+      "name": "语文第5题题组长"
+    },
+    {
+      "id": "1010501",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "chinese",
+      "questionId": "10105",
+      "questionIndex": 5,
+      "questionLeaderId": "10105",
+      "name": "语文第5题评卷员1"
+    },
+    {
+      "id": "1010502",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "chinese",
+      "questionId": "10105",
+      "questionIndex": 5,
+      "questionLeaderId": "10105",
+      "name": "语文第5题评卷员2"
+    },
+    {
+      "id": "20101",
+      "password": "123",
+      "role": "question_leader",
+      "level": 2,
+      "subjectId": "math",
+      "questionId": "20101",
+      "questionIndex": 1,
+      "name": "数学第1题题组长"
+    },
+    {
+      "id": "2010101",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "math",
+      "questionId": "20101",
+      "questionIndex": 1,
+      "questionLeaderId": "20101",
+      "name": "数学第1题评卷员1"
+    },
+    {
+      "id": "2010102",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "math",
+      "questionId": "20101",
+      "questionIndex": 1,
+      "questionLeaderId": "20101",
+      "name": "数学第1题评卷员2"
+    },
+    {
+      "id": "20102",
+      "password": "123",
+      "role": "question_leader",
+      "level": 2,
+      "subjectId": "math",
+      "questionId": "20102",
+      "questionIndex": 2,
+      "name": "数学第2题题组长"
+    },
+    {
+      "id": "2010201",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "math",
+      "questionId": "20102",
+      "questionIndex": 2,
+      "questionLeaderId": "20102",
+      "name": "数学第2题评卷员1"
+    },
+    {
+      "id": "2010202",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "math",
+      "questionId": "20102",
+      "questionIndex": 2,
+      "questionLeaderId": "20102",
+      "name": "数学第2题评卷员2"
+    },
+    {
+      "id": "20103",
+      "password": "123",
+      "role": "question_leader",
+      "level": 2,
+      "subjectId": "math",
+      "questionId": "20103",
+      "questionIndex": 3,
+      "name": "数学第3题题组长"
+    },
+    {
+      "id": "2010301",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "math",
+      "questionId": "20103",
+      "questionIndex": 3,
+      "questionLeaderId": "20103",
+      "name": "数学第3题评卷员1"
+    },
+    {
+      "id": "2010302",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "math",
+      "questionId": "20103",
+      "questionIndex": 3,
+      "questionLeaderId": "20103",
+      "name": "数学第3题评卷员2"
+    },
+    {
+      "id": "20104",
+      "password": "123",
+      "role": "question_leader",
+      "level": 2,
+      "subjectId": "math",
+      "questionId": "20104",
+      "questionIndex": 4,
+      "name": "数学第4题题组长"
+    },
+    {
+      "id": "2010401",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "math",
+      "questionId": "20104",
+      "questionIndex": 4,
+      "questionLeaderId": "20104",
+      "name": "数学第4题评卷员1"
+    },
+    {
+      "id": "2010402",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "math",
+      "questionId": "20104",
+      "questionIndex": 4,
+      "questionLeaderId": "20104",
+      "name": "数学第4题评卷员2"
+    },
+    {
+      "id": "30101",
+      "password": "123",
+      "role": "question_leader",
+      "level": 2,
+      "subjectId": "english",
+      "questionId": "30101",
+      "questionIndex": 1,
+      "name": "英语第1题题组长"
+    },
+    {
+      "id": "3010101",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "english",
+      "questionId": "30101",
+      "questionIndex": 1,
+      "questionLeaderId": "30101",
+      "name": "英语第1题评卷员1"
+    },
+    {
+      "id": "3010102",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "english",
+      "questionId": "30101",
+      "questionIndex": 1,
+      "questionLeaderId": "30101",
+      "name": "英语第1题评卷员2"
+    },
+    {
+      "id": "30102",
+      "password": "123",
+      "role": "question_leader",
+      "level": 2,
+      "subjectId": "english",
+      "questionId": "30102",
+      "questionIndex": 2,
+      "name": "英语第2题题组长"
+    },
+    {
+      "id": "3010201",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "english",
+      "questionId": "30102",
+      "questionIndex": 2,
+      "questionLeaderId": "30102",
+      "name": "英语第2题评卷员1"
+    },
+    {
+      "id": "3010202",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "english",
+      "questionId": "30102",
+      "questionIndex": 2,
+      "questionLeaderId": "30102",
+      "name": "英语第2题评卷员2"
+    },
+    {
+      "id": "30103",
+      "password": "123",
+      "role": "question_leader",
+      "level": 2,
+      "subjectId": "english",
+      "questionId": "30103",
+      "questionIndex": 3,
+      "name": "英语第3题题组长"
+    },
+    {
+      "id": "3010301",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "english",
+      "questionId": "30103",
+      "questionIndex": 3,
+      "questionLeaderId": "30103",
+      "name": "英语第3题评卷员1"
+    },
+    {
+      "id": "3010302",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "english",
+      "questionId": "30103",
+      "questionIndex": 3,
+      "questionLeaderId": "30103",
+      "name": "英语第3题评卷员2"
+    },
+    {
+      "id": "1010503",
+      "password": "123",
+      "role": "grader",
+      "level": 3,
+      "subjectId": "chinese",
+      "questionId": "10105",
+      "questionIndex": 5,
+      "questionLeaderId": "10105",
+      "name": "语文第5题评卷员3"
+    }
+  ],
+  "students": [
+    {
+      "examNo": "S0001",
+      "name": "学生1"
+    },
+    {
+      "examNo": "S0002",
+      "name": "学生2"
+    },
+    {
+      "examNo": "S0003",
+      "name": "学生3"
+    },
+    {
+      "examNo": "S0004",
+      "name": "学生4"
+    },
+    {
+      "examNo": "S0005",
+      "name": "学生5"
+    },
+    {
+      "examNo": "S0006",
+      "name": "学生6"
+    },
+    {
+      "examNo": "S0007",
+      "name": "学生7"
+    },
+    {
+      "examNo": "S0008",
+      "name": "学生8"
+    },
+    {
+      "examNo": "S0009",
+      "name": "学生9"
+    },
+    {
+      "examNo": "S0010",
+      "name": "学生10"
+    },
+    {
+      "examNo": "S0011",
+      "name": "学生11"
+    },
+    {
+      "examNo": "S0012",
+      "name": "学生12"
+    },
+    {
+      "examNo": "S0013",
+      "name": "学生13"
+    },
+    {
+      "examNo": "S0014",
+      "name": "学生14"
+    },
+    {
+      "examNo": "S0015",
+      "name": "学生15"
+    },
+    {
+      "examNo": "S0016",
+      "name": "学生16"
+    },
+    {
+      "examNo": "S0017",
+      "name": "学生17"
+    },
+    {
+      "examNo": "S0018",
+      "name": "学生18"
+    },
+    {
+      "examNo": "S0019",
+      "name": "学生19"
+    },
+    {
+      "examNo": "S0020",
+      "name": "学生20"
+    }
+  ],
+  "scans": [
+    {
+      "id": 1790841219737,
+      "examNo": "S0004",
+      "subjectId": "chinese",
+      "questionIndex": 5,
+      "imagePath": "/uploads/scan_1790841216785_820947340.png",
+      "uploadedAt": "2026-10-01T07:53:36.842Z",
+      "status": "graded",
+      "assignedGraders": [
+        "1010501",
+        "1010502"
+      ],
+      "scores": [
+        {
+          "id": 1790841255588,
+          "scanId": 1790841219737,
+          "graderId": "1010501",
+          "graderName": "语文第5题评卷员1",
+          "score": 0,
+          "round": 1,
+          "submittedAt": "2026-10-01T07:54:11.862Z"
+        },
+        {
+          "id": 1790841278143,
+          "scanId": 1790841219737,
+          "graderId": "1010502",
+          "graderName": "语文第5题评卷员2",
+          "score": 60,
+          "round": 2,
+          "submittedAt": "2026-10-01T07:54:36.462Z"
+        },
+        {
+          "id": 1790841354023,
+          "scanId": 1790841219737,
+          "graderId": "10105",
+          "graderName": "语文第5题题组长",
+          "score": 50,
+          "round": 99,
+          "submittedAt": "2026-10-01T07:55:50.537Z",
+          "isArbitration": true
+        }
+      ],
+      "arbitration": true,
+      "arbitrationReason": "分差 60 分大于 10，自动进入仲裁",
+      "arbitrationAt": "2026-10-01T07:54:36.462Z",
+      "finalScore": 50,
+      "finalGraderId": "10105",
+      "finalGraderName": "语文第5题题组长",
+      "arbitrationResolved": true,
+      "arbitrationResolvedAt": "2026-10-01T07:55:50.537Z"
+    },
+    {
+      "id": 1791093195839,
+      "examNo": "S0005",
+      "subjectId": "chinese",
+      "questionIndex": 1,
+      "imagePath": "/uploads/scan_1791093195283_207856168.png",
+      "uploadedAt": "2026-10-04T05:53:15.400Z",
+      "status": "graded",
+      "assignedGraders": [
+        "1010102",
+        "1010101"
+      ],
+      "scores": [
+        {
+          "id": 1791093232048,
+          "scanId": 1791093195839,
+          "graderId": "1010102",
+          "graderName": "语文第1题评卷员2",
+          "score": 0,
+          "round": 1,
+          "submittedAt": "2026-10-04T05:53:47.534Z"
+        },
+        {
+          "id": 1791699438314,
+          "scanId": 1791093195839,
+          "graderId": "1010101",
+          "graderName": "语文第1题评卷员1",
+          "score": 5,
+          "round": 2,
+          "submittedAt": "2026-10-11T06:17:16.090Z"
+        }
+      ]
+    },
+    {
+      "id": 1791093203400,
+      "examNo": "S0005",
+      "subjectId": "chinese",
+      "questionIndex": 3,
+      "imagePath": "/uploads/scan_1791093195548_118253669.png",
+      "uploadedAt": "2026-10-04T05:53:15.563Z",
+      "status": "graded",
+      "assignedGraders": [
+        "1010301"
+      ],
+      "scores": [
+        {
+          "id": 1791093545113,
+          "scanId": 1791093203400,
+          "graderId": "1010301",
+          "graderName": "语文第3题评卷员1",
+          "score": 10,
+          "round": 1,
+          "submittedAt": "2026-10-04T05:59:03.232Z"
+        }
+      ]
+    },
+    {
+      "id": 1791093195912,
+      "examNo": "S0005",
+      "subjectId": "chinese",
+      "questionIndex": 4,
+      "imagePath": "/uploads/scan_1791093195540_285182927.png",
+      "uploadedAt": "2026-10-04T05:53:15.892Z",
+      "status": "pending",
+      "assignedGraders": [],
+      "scores": []
+    },
+    {
+      "id": 1791093202512,
+      "examNo": "S0005",
+      "subjectId": "chinese",
+      "questionIndex": 5,
+      "imagePath": "/uploads/scan_1791093195545_980690982.png",
+      "uploadedAt": "2026-10-04T05:53:15.925Z",
+      "status": "graded",
+      "assignedGraders": [
+        "1010501",
+        "10105"
+      ],
+      "scores": [
+        {
+          "id": 1791699541901,
+          "scanId": 1791093202512,
+          "graderId": "1010501",
+          "graderName": "语文第5题评卷员1",
+          "score": 20,
+          "round": 1,
+          "submittedAt": "2026-10-11T06:19:00.126Z"
+        },
+        {
+          "id": 1791699574164,
+          "scanId": 1791093202512,
+          "graderId": "10105",
+          "graderName": "语文第5题题组长",
+          "score": 60,
+          "round": 2,
+          "submittedAt": "2026-10-11T06:19:27.434Z"
+        },
+        {
+          "id": 1791699582949,
+          "scanId": 1791093202512,
+          "graderId": "10105",
+          "graderName": "语文第5题题组长",
+          "score": 60,
+          "round": 99,
+          "submittedAt": "2026-10-11T06:19:40.610Z",
+          "isArbitration": true
+        }
+      ],
+      "arbitration": false,
+      "arbitrationReason": "分差 40 分大于 10，自动进入仲裁",
+      "arbitrationAt": "2026-10-11T06:19:27.445Z",
+      "finalScore": 60,
+      "finalGraderId": "10105",
+      "finalGraderName": "语文第5题题组长",
+      "arbitrationResolved": true,
+      "arbitrationResolvedAt": "2026-10-11T06:19:40.610Z"
+    },
+    {
+      "id": 1791093200211,
+      "examNo": "S0005",
+      "subjectId": "chinese",
+      "questionIndex": 2,
+      "imagePath": "/uploads/scan_1791093195530_521686403.png",
+      "uploadedAt": "2026-10-04T05:53:15.959Z",
+      "status": "graded",
+      "assignedGraders": [
+        "1010201"
+      ],
+      "scores": [
+        {
+          "id": 1791699520433,
+          "scanId": 1791093200211,
+          "graderId": "1010201",
+          "graderName": "语文第2题评卷员1",
+          "score": 10,
+          "round": 1,
+          "submittedAt": "2026-10-11T06:18:36.666Z"
+        }
+      ]
+    },
+    {
+      "id": 1791699358293,
+      "examNo": "S0001",
+      "subjectId": "chinese",
+      "questionIndex": 1,
+      "imagePath": "/uploads/scan_1791699356797_523554959.jpg",
+      "uploadedAt": "2026-10-11T06:15:56.799Z",
+      "status": "graded",
+      "assignedGraders": [
+        "1010101",
+        "1010102"
+      ],
+      "scores": [
+        {
+          "id": 1791699438126,
+          "scanId": 1791699358293,
+          "graderId": "1010101",
+          "graderName": "语文第1题评卷员1",
+          "score": 5,
+          "round": 1,
+          "submittedAt": "2026-10-11T06:17:08.969Z"
+        },
+        {
+          "id": 1791699486420,
+          "scanId": 1791699358293,
+          "graderId": "1010102",
+          "graderName": "语文第1题评卷员2",
+          "score": 10,
+          "round": 2,
+          "submittedAt": "2026-10-11T06:18:02.448Z"
+        }
+      ]
+    },
+    {
+      "id": 1791699362060,
+      "examNo": "S0001",
+      "subjectId": "chinese",
+      "questionIndex": 2,
+      "imagePath": "/uploads/scan_1791699356823_36213477.jpg",
+      "uploadedAt": "2026-10-11T06:15:56.825Z",
+      "status": "graded",
+      "assignedGraders": [
+        "1010201"
+      ],
+      "scores": [
+        {
+          "id": 1791699530736,
+          "scanId": 1791699362060,
+          "graderId": "1010201",
+          "graderName": "语文第2题评卷员1",
+          "score": 10,
+          "round": 1,
+          "submittedAt": "2026-10-11T06:18:41.583Z"
+        }
+      ]
+    },
+    {
+      "id": 1791699364513,
+      "examNo": "S0001",
+      "subjectId": "chinese",
+      "questionIndex": 3,
+      "imagePath": "/uploads/scan_1791699356843_352180580.jpg",
+      "uploadedAt": "2026-10-11T06:15:56.845Z",
+      "status": "pending",
+      "assignedGraders": [],
+      "scores": []
+    },
+    {
+      "id": 1791699361699,
+      "examNo": "S0001",
+      "subjectId": "chinese",
+      "questionIndex": 4,
+      "imagePath": "/uploads/scan_1791699356864_411876794.jpg",
+      "uploadedAt": "2026-10-11T06:15:56.866Z",
+      "status": "pending",
+      "assignedGraders": [],
+      "scores": []
+    },
+    {
+      "id": 1791699359254,
+      "examNo": "S0001",
+      "subjectId": "chinese",
+      "questionIndex": 5,
+      "imagePath": "/uploads/scan_1791699356891_400937135.jpg",
+      "uploadedAt": "2026-10-11T06:15:56.893Z",
+      "status": "graded",
+      "assignedGraders": [
+        "1010501",
+        "10105"
+      ],
+      "scores": [
+        {
+          "id": 1791699554157,
+          "scanId": 1791699359254,
+          "graderId": "1010501",
+          "graderName": "语文第5题评卷员1",
+          "score": 60,
+          "round": 1,
+          "submittedAt": "2026-10-11T06:19:04.744Z"
+        },
+        {
+          "id": 1791699580878,
+          "scanId": 1791699359254,
+          "graderId": "10105",
+          "graderName": "语文第5题题组长",
+          "score": 60,
+          "round": 2,
+          "submittedAt": "2026-10-11T06:19:31.498Z"
+        }
+      ]
+    },
+    {
+      "id": 1791699377008,
+      "examNo": "S0002",
+      "subjectId": "math",
+      "questionIndex": 1,
+      "imagePath": "/uploads/scan_1791699376704_697203148.jpg",
+      "uploadedAt": "2026-10-11T06:16:16.706Z",
+      "status": "graded",
+      "assignedGraders": [
+        "2010101"
+      ],
+      "scores": [
+        {
+          "id": 1791700689546,
+          "scanId": 1791699377008,
+          "graderId": "2010101",
+          "graderName": "数学第1题评卷员1",
+          "score": 20,
+          "round": 1,
+          "submittedAt": "2026-10-11T06:38:03.131Z"
+        }
+      ]
+    },
+    {
+      "id": 1791699382380,
+      "examNo": "S0002",
+      "subjectId": "math",
+      "questionIndex": 2,
+      "imagePath": "/uploads/scan_1791699376726_815081644.jpg",
+      "uploadedAt": "2026-10-11T06:16:16.727Z",
+      "status": "pending",
+      "assignedGraders": [],
+      "scores": []
+    },
+    {
+      "id": 1791699378690,
+      "examNo": "S0002",
+      "subjectId": "math",
+      "questionIndex": 3,
+      "imagePath": "/uploads/scan_1791699376743_990380614.jpg",
+      "uploadedAt": "2026-10-11T06:16:16.743Z",
+      "status": "pending",
+      "assignedGraders": [],
+      "scores": []
+    },
+    {
+      "id": 1791699381680,
+      "examNo": "S0002",
+      "subjectId": "math",
+      "questionIndex": 4,
+      "imagePath": "/uploads/scan_1791699376759_405348381.jpg",
+      "uploadedAt": "2026-10-11T06:16:16.760Z",
+      "status": "pending",
+      "assignedGraders": [],
+      "scores": []
+    },
+    {
+      "id": 1791699394755,
+      "examNo": "S0001",
+      "subjectId": "english",
+      "questionIndex": 1,
+      "imagePath": "/uploads/scan_1791699393942_570713226.jpg",
+      "uploadedAt": "2026-10-11T06:16:33.943Z",
+      "status": "graded",
+      "assignedGraders": [
+        "3010101"
+      ],
+      "scores": [
+        {
+          "id": 1791701331069,
+          "scanId": 1791699394755,
+          "graderId": "3010101",
+          "graderName": "英语第1题评卷员1",
+          "score": 25,
+          "round": 1,
+          "submittedAt": "2026-10-11T06:48:44.134Z"
+        }
+      ]
+    },
+    {
+      "id": 1791699399207,
+      "examNo": "S0001",
+      "subjectId": "english",
+      "questionIndex": 2,
+      "imagePath": "/uploads/scan_1791699393963_866951746.jpg",
+      "uploadedAt": "2026-10-11T06:16:33.966Z",
+      "status": "pending",
+      "assignedGraders": [],
+      "scores": []
+    },
+    {
+      "id": 1791699402369,
+      "examNo": "S0001",
+      "subjectId": "english",
+      "questionIndex": 3,
+      "imagePath": "/uploads/scan_1791699393979_428188468.jpg",
+      "uploadedAt": "2026-10-11T06:16:33.979Z",
+      "status": "pending",
+      "assignedGraders": [],
+      "scores": []
+    },
+    {
+      "id": 1791702468405,
+      "examNo": "S0003",
+      "subjectId": "chinese",
+      "questionIndex": 1,
+      "imagePath": "/uploads/scan_1791702466287_683669545.jpg",
+      "uploadedAt": "2026-10-11T07:07:46.297Z",
+      "status": "partial",
+      "assignedGraders": [
+        "1010101"
+      ],
+      "scores": [
+        {
+          "id": 1791702544012,
+          "scanId": 1791702468405,
+          "graderId": "1010101",
+          "graderName": "语文第1题评卷员1",
+          "score": 10,
+          "round": 1,
+          "submittedAt": "2026-10-11T07:08:56.815Z"
+        }
+      ]
+    },
+    {
+      "id": 1791702469302,
+      "examNo": "S0003",
+      "subjectId": "chinese",
+      "questionIndex": 2,
+      "imagePath": "/uploads/scan_1791702466360_128268090.jpg",
+      "uploadedAt": "2026-10-11T07:07:46.363Z",
+      "status": "pending",
+      "assignedGraders": [],
+      "scores": []
+    },
+    {
+      "id": 1791702474237,
+      "examNo": "S0003",
+      "subjectId": "chinese",
+      "questionIndex": 3,
+      "imagePath": "/uploads/scan_1791702466453_284614460.jpg",
+      "uploadedAt": "2026-10-11T07:07:46.454Z",
+      "status": "pending",
+      "assignedGraders": [],
+      "scores": []
+    },
+    {
+      "id": 1791702473823,
+      "examNo": "S0003",
+      "subjectId": "chinese",
+      "questionIndex": 4,
+      "imagePath": "/uploads/scan_1791702466497_307429284.jpg",
+      "uploadedAt": "2026-10-11T07:07:46.568Z",
+      "status": "pending",
+      "assignedGraders": [],
+      "scores": []
+    },
+    {
+      "id": 1791702476217,
+      "examNo": "S0003",
+      "subjectId": "chinese",
+      "questionIndex": 5,
+      "imagePath": "/uploads/scan_1791702466853_132613878.jpg",
+      "uploadedAt": "2026-10-11T07:07:46.858Z",
+      "status": "pending",
+      "assignedGraders": [],
+      "scores": []
+    }
+  ],
+  "scores": [
+    {
+      "id": 1790841255588,
+      "scanId": 1790841219737,
+      "graderId": "1010501",
+      "graderName": "语文第5题评卷员1",
+      "score": 0,
+      "round": 1,
+      "submittedAt": "2026-10-01T07:54:11.862Z"
+    },
+    {
+      "id": 1790841278143,
+      "scanId": 1790841219737,
+      "graderId": "1010502",
+      "graderName": "语文第5题评卷员2",
+      "score": 60,
+      "round": 2,
+      "submittedAt": "2026-10-01T07:54:36.462Z"
+    },
+    {
+      "id": 1790841354023,
+      "scanId": 1790841219737,
+      "graderId": "10105",
+      "graderName": "语文第5题题组长",
+      "score": 50,
+      "round": 99,
+      "submittedAt": "2026-10-01T07:55:50.537Z",
+      "isArbitration": true
+    },
+    {
+      "id": 1791093232048,
+      "scanId": 1791093195839,
+      "graderId": "1010102",
+      "graderName": "语文第1题评卷员2",
+      "score": 0,
+      "round": 1,
+      "submittedAt": "2026-10-04T05:53:47.534Z"
+    },
+    {
+      "id": 1791093545113,
+      "scanId": 1791093203400,
+      "graderId": "1010301",
+      "graderName": "语文第3题评卷员1",
+      "score": 10,
+      "round": 1,
+      "submittedAt": "2026-10-04T05:59:03.232Z"
+    },
+    {
+      "id": 1791699438126,
+      "scanId": 1791699358293,
+      "graderId": "1010101",
+      "graderName": "语文第1题评卷员1",
+      "score": 5,
+      "round": 1,
+      "submittedAt": "2026-10-11T06:17:08.969Z"
+    },
+    {
+      "id": 1791699438314,
+      "scanId": 1791093195839,
+      "graderId": "1010101",
+      "graderName": "语文第1题评卷员1",
+      "score": 5,
+      "round": 2,
+      "submittedAt": "2026-10-11T06:17:16.090Z"
+    },
+    {
+      "id": 1791699486420,
+      "scanId": 1791699358293,
+      "graderId": "1010102",
+      "graderName": "语文第1题评卷员2",
+      "score": 10,
+      "round": 2,
+      "submittedAt": "2026-10-11T06:18:02.448Z"
+    },
+    {
+      "id": 1791699520433,
+      "scanId": 1791093200211,
+      "graderId": "1010201",
+      "graderName": "语文第2题评卷员1",
+      "score": 10,
+      "round": 1,
+      "submittedAt": "2026-10-11T06:18:36.666Z"
+    },
+    {
+      "id": 1791699530736,
+      "scanId": 1791699362060,
+      "graderId": "1010201",
+      "graderName": "语文第2题评卷员1",
+      "score": 10,
+      "round": 1,
+      "submittedAt": "2026-10-11T06:18:41.583Z"
+    },
+    {
+      "id": 1791699541901,
+      "scanId": 1791093202512,
+      "graderId": "1010501",
+      "graderName": "语文第5题评卷员1",
+      "score": 20,
+      "round": 1,
+      "submittedAt": "2026-10-11T06:19:00.126Z"
+    },
+    {
+      "id": 1791699554157,
+      "scanId": 1791699359254,
+      "graderId": "1010501",
+      "graderName": "语文第5题评卷员1",
+      "score": 60,
+      "round": 1,
+      "submittedAt": "2026-10-11T06:19:04.744Z"
+    },
+    {
+      "id": 1791699574164,
+      "scanId": 1791093202512,
+      "graderId": "10105",
+      "graderName": "语文第5题题组长",
+      "score": 60,
+      "round": 2,
+      "submittedAt": "2026-10-11T06:19:27.434Z"
+    },
+    {
+      "id": 1791699580878,
+      "scanId": 1791699359254,
+      "graderId": "10105",
+      "graderName": "语文第5题题组长",
+      "score": 60,
+      "round": 2,
+      "submittedAt": "2026-10-11T06:19:31.498Z"
+    },
+    {
+      "id": 1791699582949,
+      "scanId": 1791093202512,
+      "graderId": "10105",
+      "graderName": "语文第5题题组长",
+      "score": 60,
+      "round": 99,
+      "submittedAt": "2026-10-11T06:19:40.610Z",
+      "isArbitration": true
+    },
+    {
+      "id": 1791700689546,
+      "scanId": 1791699377008,
+      "graderId": "2010101",
+      "graderName": "数学第1题评卷员1",
+      "score": 20,
+      "round": 1,
+      "submittedAt": "2026-10-11T06:38:03.131Z"
+    },
+    {
+      "id": 1791701331069,
+      "scanId": 1791699394755,
+      "graderId": "3010101",
+      "graderName": "英语第1题评卷员1",
+      "score": 25,
+      "round": 1,
+      "submittedAt": "2026-10-11T06:48:44.134Z"
+    },
+    {
+      "id": 1791702544012,
+      "scanId": 1791702468405,
+      "graderId": "1010101",
+      "graderName": "语文第1题评卷员1",
+      "score": 10,
+      "round": 1,
+      "submittedAt": "2026-10-11T07:08:56.815Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "10101_1791702982236_psopl2r0p",
+      "accountId": "10101",
+      "loginAt": "2026-10-11T07:16:22.236Z",
+      "sessionStartAt": "2026-10-11T07:16:22.236Z",
+      "lastActiveAt": "2026-10-11T07:18:34.620Z",
+      "gradedCount": 0
+    },
+    {
+      "token": "001_1791704053847_zk97b4irdc",
+      "accountId": "001",
+      "loginAt": "2026-10-11T07:34:13.847Z",
+      "sessionStartAt": "2026-10-11T07:34:13.847Z",
+      "lastActiveAt": "2026-10-11T07:35:23.712Z",
+      "gradedCount": 0
+    }
+  ]
+}
